@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+@import './variables/colres.scss';
+@import './secciones/header';
+@import './secciones/footer';
+@import './secciones/index';
+@import './secciones/djsets';
+@import './secciones/shows';
+@import './secciones/biografia';
+@import './secciones/contacto.scss';
+
+
+
+/* Animaciones */
+
+/*QUERYS MOBILE  */
+
+
+@media (max-width: 480px) {
+
+    /* index*/
+
+ 
+
+    /* query djsets */
+    .podcast {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .podcast iframe {
+        max-width: 30rem;
+    }
+
+    /* cuery proximos */
+
+
+
+    /* query bio */
+    .bio {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .seccbio {
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .fotobio {
+        padding-left: 0;
+        padding-top: 0;
+
+    }
+
+    /* query formulario */
+
+    .form-flex {
+        flex-direction: column;
+
+    }
+
+    .fotoform {
+        display: none;
+    }
+
+    .contrataciones {
+        font-size: 1.5rem;
+    }
+}
+
+/* QUERY TABLET */
+
+
+
+@media (max-width: 1024px) {
+
+    /* index */
+   
+   
+
+   
+
+
+    /* CONTACTO */
+    .form-flex {
+        flex-direction: column;
+
+    }
+
+    .fotoform {
+        display: none;
+    }
+
+    .contrataciones {
+        font-size: 2rem;
+    }
+
+    .formulario textarea {
+        max-width: 15rem;
+        max-height: 13rem;
+    }
+}

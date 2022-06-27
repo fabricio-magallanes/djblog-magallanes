@@ -1,0 +1,142 @@
+/* titulo o logo */
+
+@keyframes logo {
+    0% {
+
+        transform: rotate(0deg);
+        transition: .5s;
+    }
+
+    50% {
+        transform: rotate(-4deg);
+        transition: .5s;
+    }
+
+    100% {
+        transform: rotate(0deg);
+        transition: .5s;
+    }
+}
+
+
+
+
+
+/* navbar */
+.header {
+    background-image: linear-gradient(180deg, black, #353030);
+
+    &__logo {
+        padding: 25px;
+        color: $colorTitulos;
+        text-decoration: none;
+        font-size: 60px;
+        transform: skew(354deg);
+        animation-name: logo;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+
+        &:hover {
+            color: rgb(236, 246, 254);
+            transition: .2s;
+            transform: scale(1.12);
+        }
+    }
+
+    &__navegacion {
+        display: flex;
+        flex-wrap: inherit;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__nav-item {
+        border-style: groove;
+        margin: 9px;
+        padding: 7px;
+        background-color: rgb(143, 143, 143);
+        list-style: none;
+        text-decoration: none;
+        color: black;
+
+        &:hover {
+            background-color: rgb(236, 246, 254);
+            transition: .2s;
+            transform: scale(1.12);
+            color: black;
+
+        }
+    }
+
+    &__nav-link {
+        color: rgb(0, 0, 0);
+        font-weight: 600;
+        text-decoration: none;
+
+        &:hover {
+            color: black;
+        }
+
+        &:active {
+            color: #353030;
+        }
+
+
+
+    }
+}
+
+.header {
+    .navbar {
+        background-image: linear-gradient(180deg, black, #353030)
+    }
+
+    ;
+
+}
+
+
+.navbar-toggler {
+    background-color: #d2cccc;
+    
+
+}
+
+.navbar-nav {
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+@media (max-width: 480px) {
+
+    /* index*/
+
+    .header {
+        &__logo {
+            font-size: 30px;
+            padding: 10px;
+        }
+    }
+    .navbar-toggler {
+        background-color: #d2cccc;
+        padding: 0px;
+}
+
+
+}
+
+@media (max-width: 1024px) {
+
+    /* index */
+
+
+    .header-barra ul {
+        justify-content: flex-end;
+
+    }
+}
