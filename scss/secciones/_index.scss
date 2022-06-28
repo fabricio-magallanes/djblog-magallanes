@@ -49,22 +49,11 @@
         margin-top: 70px;
         font-size: 20px;
 
-
-    }
-
-
-
-    .generos,
-    .set-up {
         h2 {
             color: $colorSubtitulo;
             font-size: 40px;
         }
 
-    }
-
-    .generos,
-    .set-up {
         ul {
             li {
                 list-style: none;
@@ -72,15 +61,14 @@
                 padding: 5px;
             }
         }
-
-
+        .listgeneros,
+        .list-setup {
+            padding: 25px;
+        }
+    
     }
 
-    .listgeneros,
-    .list-setup {
-        padding: 25px;
-    }
-
+   
 }
 
 @media (max-width: 480px) {
@@ -142,7 +130,7 @@
     .main-index {
         .img {
             img {
-                max-width: 180px;
+                max-width: 220px;
                 padding-bottom: 2rem;
             }
         }

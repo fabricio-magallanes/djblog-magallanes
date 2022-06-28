@@ -4,7 +4,7 @@
         background-image: linear-gradient(180deg, black, #353030)
     }
 
-
+//logo//
     &__logo {
         padding: 25px;
         color: $colorTitulos;
@@ -21,7 +21,7 @@
             transform: scale(1.12);
         }
     }
-
+//nav//
     &__navegacion {
         display: flex;
         flex-wrap: inherit;
@@ -65,26 +65,35 @@
         }
 
 
-
-
-
-
-        .navbar-toggler {
-            background-color: #d2cccc;
-
-
-        }
-
-
-
-
+        //color hamburguesa//
     }
+
+    .navbar-toggler {
+        background-color: #8f8f8f;
+    }
+
+
+
+
 }
 
 
+@media (max-width: 1024px) {
+
+    .header {
+        &__logo {
+            font-size: 45px;
+            padding: 10px;
+        }
+    }
+  
+
+    }
+
+    
 @media (max-width: 480px) {
 
-    /* index*/
+
 
     .header {
         &__logo {
@@ -94,22 +103,11 @@
     }
 
     .navbar-toggler {
-        background-color: #d2cccc;
+      
         padding: 0px;
     }
 
 
-}
-
-@media (max-width: 1024px) {
-
-    /* index */
-
-
-    .header-barra ul {
-        justify-content: flex-end;
-
-    }
 }
 
 /* titulo o logo */
