@@ -2,7 +2,13 @@
     padding: 0;
     margin: 0;
 }
-@import './variables/colres.scss';
+
+@import './variables/mixins.scss';
+@import './variables/letras.scss';
+@import './variables/extended.scss';
+
+
+
 @import './secciones/header';
 @import './secciones/footer';
 @import './secciones/index';
