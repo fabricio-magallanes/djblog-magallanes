@@ -371,7 +371,7 @@
       flex-direction: column;
       align-items: center; }
       .main-contacto .contact-main .form-flex .seccform .contrataciones {
-        font-size: 2rem;
+        font-size: 32px;
         color: #ea8989;
         text-transform: uppercase;
         margin-bottom: 2rem; }
@@ -412,8 +412,7 @@
         background-color: #8f8f8f;
         max-width: 6rem;
         align-items: center;
-        font-weight: bolder;
-        padding: 0.4rem; }
+        padding: 8px; }
         .main-contacto .contact-main .form-flex .seccform .enviar :hover {
           background-color: white; }
     .main-contacto .contact-main .form-flex .fotoform {
@@ -436,7 +435,9 @@
     border-radius: 1rem;
     font-weight: bolder;
     max-width: 200px;
-    max-height: 200px; } }
+    max-height: 200px; }
+  .main-contacto .contact-main .form-flex .seccform .contrataciones {
+    font-size: 25px; } }
 
 /* Animaciones */
 /*QUERYS MOBILE  */

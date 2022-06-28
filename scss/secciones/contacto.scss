@@ -20,7 +20,7 @@
                 align-items: center;
 
                 .contrataciones {
-                    font-size: 2rem;
+                    font-size: 32px;
                     color: $colorSubtitulo;
                     text-transform: uppercase;
                     margin-bottom: 2rem;
@@ -79,8 +79,8 @@
                     background-color: rgb(143, 143, 143);
                     max-width: 6rem;
                     align-items: center;
-                    font-weight: bolder;
-                    padding: 0.4rem;
+
+                    padding: 8px;
 
                     & :hover {
                         background-color: white;
@@ -137,6 +137,11 @@
                         }
 
                     }
+                    .contrataciones{
+                        font-size: 25px;
+
+                    }
+
                 }
             }
         }
