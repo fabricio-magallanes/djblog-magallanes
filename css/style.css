@@ -344,6 +344,16 @@
         color: #b1b1c5;
         text-align: center; }
 
+@media (max-width: 1024px) {
+  .main-bio .card-bio {
+    max-width: 400px; } }
+
+@media (max-width: 480px) {
+  .main-bio .card-bio {
+    max-width: 280px; }
+    .main-bio .card-bio .card-body p {
+      font-size: small; } }
+
 /*  formulario de contacto */
 .contact-main {
   background-color: #353030;
