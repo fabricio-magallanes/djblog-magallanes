@@ -165,16 +165,14 @@
     .main-2 .set-up .list-setup {
       padding: 25px; }
 
-@media (max-width: 480px) {
-  .main-index .img {
-    flex-direction: column;
-    justify-content: center;
-    align-content: center; }
-    .main-index .img img {
-      max-width: 165px;
-      padding-bottom: 2rem; }
+@media (max-width: 1024px) {
+  .main-index .img img {
+    max-width: 220px;
+    padding-bottom: 2rem; }
   .main-index .vid {
-    display: none; }
+    display: none; } }
+
+@media (max-width: 480px) {
   .main-2 .div {
     display: flex;
     flex-direction: column; }
@@ -187,13 +185,6 @@
     padding: 2px; }
   .fa-solid,
   .parrafo {
-    display: none; } }
-
-@media (max-width: 1024px) {
-  .main-index .img img {
-    max-width: 220px;
-    padding-bottom: 2rem; }
-  .main-index .vid {
     display: none; } }
 
 /* dj sets */
@@ -309,7 +300,7 @@
     justify-content: center;
     padding-top: 3rem; }
     .main-shows .section-shows .card {
-      max-width: 24rem;
+      max-width: 300pxrem;
       text-align: center; }
       .main-shows .section-shows .card .card-body {
         background-color: #353030; }
@@ -324,19 +315,34 @@
           font-weight: bold;
           margin: 1rem; }
 
+@media (max-width: 1024px) {
+  .main-shows .section-shows .card {
+    max-width: 265px;
+    text-align: center; } }
+
+@media (max-width: 480px) {
+  .main-shows .section-shows .card {
+    max-width: 240px;
+    text-align: center; } }
+
 /* }biografia */
 .main-bio {
   background-color: #353030; }
   .main-bio .card-bio {
-    margin: auto; }
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 500px; }
     .main-bio .card-bio .card-body {
       background-color: #353030; }
       .main-bio .card-bio .card-body .card-title {
         font-weight: 700;
         color: #ea8989;
-        text-align: center; }
+        text-align: center;
+        padding: 1rem; }
       .main-bio .card-bio .card-body p {
-        color: #b1b1c5; }
+        color: #b1b1c5;
+        text-align: center; }
 
 /*  formulario de contacto */
 .contact-main {

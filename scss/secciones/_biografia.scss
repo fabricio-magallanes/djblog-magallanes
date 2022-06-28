@@ -6,24 +6,33 @@
 
     .card-bio {
         margin: auto;
-        .card-body{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        max-width: 500px;
+
+        .card-body {
             background-color: #353030;
-            .card-title{
+
+            .card-title {
                 font-weight: 700;
                 color: $colorSubtitulo;
                 text-align: center;
+                padding: 1rem;
             }
-            p{
+
+            p {
                 color: $colorTexto;
+                text-align: center;
             }
         }
-        
+
     }
 }
 
+@media (max-width: 1024px) {
+    .main-bio {
+        .card-bio {}
+    }
+}
 
-
-
-
-
-
+@media (max-width :480px) {}

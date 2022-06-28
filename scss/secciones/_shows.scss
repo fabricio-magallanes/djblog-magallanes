@@ -8,7 +8,7 @@
         padding-top: 3rem;
 
         .card {
-            max-width: 24rem;
+            max-width: 300pxrem;
             text-align: center;
 
             .card-body {
@@ -35,3 +35,25 @@
 
     }
 }
+
+@media (max-width: 1024px) {
+    .main-shows{
+        .section-shows{
+            .card{
+                max-width: 265px;
+                text-align: center;
+            }
+        }
+    }
+}
+@media (max-width :480px){
+    .main-shows{
+        .section-shows{
+            .card{
+                max-width: 240px;
+                text-align: center;
+            }
+        }
+    }
+}
+
