@@ -9,19 +9,30 @@
         padding-top: 3rem;
 
         .card {
+            max-width: 24rem;
             text-align: center;
+
+            .card-body {
+                background-color: #353030;
+            }
 
             .card-title {
                 font-weight: 700;
-                color: white;
+                color: $colorSubtitulo;
             }
 
-            .proxlist {
-                li {
-                    color: white;
+            .list-group {
+                background-color: #353030;
+
+                .fechas {
+                    list-style: none;
+                    color: #b1b1c5;
+                    font-weight: bold;
+                    margin: 1rem;
+
                 }
             }
         }
-        
+
     }
 }

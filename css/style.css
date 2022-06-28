@@ -1,6 +1,7 @@
 * {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  box-sizing: border-box; }
 
 /* navbar */
 .header .navbar {
@@ -302,12 +303,20 @@
     justify-content: center;
     padding-top: 3rem; }
     .main-shows .section-shows .card {
+      max-width: 24rem;
       text-align: center; }
+      .main-shows .section-shows .card .card-body {
+        background-color: #353030; }
       .main-shows .section-shows .card .card-title {
         font-weight: 700;
-        color: white; }
-      .main-shows .section-shows .card .proxlist li {
-        color: white; }
+        color: #ea8989; }
+      .main-shows .section-shows .card .list-group {
+        background-color: #353030; }
+        .main-shows .section-shows .card .list-group .fechas {
+          list-style: none;
+          color: #b1b1c5;
+          font-weight: bold;
+          margin: 1rem; }
 
 /* }biografia */
 .bio {
