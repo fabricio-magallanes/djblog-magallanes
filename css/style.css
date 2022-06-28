@@ -296,22 +296,18 @@
           grid-area: p8; } }
 
 /* proximos shows */
-/* contenido shows */
-.section-shows {
-  justify-content: center;
-  background-color: #353030;
-  padding-top: 3rem; }
-
-.card {
-  margin: 0 auto;
-  align-items: center; }
-
-.card-title {
-  font-weight: 700;
-  color: white; }
-
-.proxlist li {
-  color: white; }
+.main-shows {
+  background-color: #353030; }
+  .main-shows .section-shows {
+    justify-content: center;
+    padding-top: 3rem; }
+    .main-shows .section-shows .card {
+      text-align: center; }
+      .main-shows .section-shows .card .card-title {
+        font-weight: 700;
+        color: white; }
+      .main-shows .section-shows .card .proxlist li {
+        color: white; }
 
 /* }biografia */
 .bio {

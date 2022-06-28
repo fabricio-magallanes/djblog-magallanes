@@ -1,27 +1,27 @@
 /* proximos shows */
 
-
-
-/* contenido shows */
-.section-shows {
-    justify-content: center;
+.main-shows {
     background-color: #353030;
-    padding-top: 3rem;
-}
 
-.card {
-    margin: 0 auto;
+    .section-shows {
+        justify-content: center;
 
+        padding-top: 3rem;
 
-    align-items: center;
+        .card {
+            text-align: center;
 
-}
+            .card-title {
+                font-weight: 700;
+                color: white;
+            }
 
-.card-title {
-    font-weight: 700;
-    color: white;
-}
-
-.proxlist li {
-    color: white;
+            .proxlist {
+                li {
+                    color: white;
+                }
+            }
+        }
+        
+    }
 }
