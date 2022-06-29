@@ -30,10 +30,7 @@
         padding-top: 3rem;
 
         p {
-            color: $colorTexto;
-            margin: auto;
-            text-align: center;
-            font-size: larger;
+            @extend %estiloparrafo;
         }
     }
 

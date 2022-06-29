@@ -3,6 +3,12 @@
   margin: 0;
   box-sizing: border-box; }
 
+.main-index .frases p, .podcast .sub-grid .descripcion {
+  color: #b1b1c5;
+  margin: auto;
+  text-align: center;
+  font-size: larger; }
+
 /* navbar */
 .header .navbar {
   background-image: linear-gradient(180deg, black, #353030); }
@@ -139,11 +145,6 @@
     max-width: 70vw;
     margin: auto;
     padding-top: 3rem; }
-    .main-index .frases p {
-      color: #b1b1c5;
-      margin: auto;
-      text-align: center;
-      font-size: larger; }
 
 /* generos y set up */
 .main-2 {
@@ -215,12 +216,8 @@
       color: #ea8989;
       padding-bottom: 50px; }
     .podcast .sub-grid .descripcion {
-      color: #b1b1c5;
-      margin: auto;
-      text-align: center;
-      font-size: larger;
       max-width: 70vw;
-      padding-bottom: 3rem; }
+      padding-bottom: 4rem; }
   .podcast .sets1 {
     display: grid;
     justify-content: space-around;
