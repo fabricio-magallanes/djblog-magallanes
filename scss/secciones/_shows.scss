@@ -15,15 +15,17 @@
                 background-color: #353030;
 
                 p {
-                   @extend %estiloparrafo;
+                    @extend %estiloparrafo;
                 }
 
-                
+
             }
 
             .card-title {
                 font-weight: 700;
+                font-family: $font-h2;
                 color: $colorSubtitulo;
+                font-size: 40px;
             }
 
             .list-group {

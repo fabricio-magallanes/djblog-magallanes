@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -162,8 +163,10 @@
     font-size: 20px; }
     .main-2 .generos h2,
     .main-2 .set-up h2 {
+      font-family: "Open Sans", sans-serif;
       color: #ea8989;
-      font-size: 40px; }
+      font-size: 40px;
+      font-weight: 400; }
     .main-2 .generos ul li,
     .main-2 .set-up ul li {
       list-style: none;
@@ -209,15 +212,15 @@
   .podcast .sub-grid {
     grid-area: sub-grid; }
     .podcast .sub-grid .sub-podcast {
-      font-size: 43px;
-      font-weight: 700;
+      font-family: "Open Sans", sans-serif;
+      color: #ea8989;
+      font-size: 40px;
+      font-weight: 400;
       text-transform: uppercase;
       text-align: center;
-      color: #ea8989;
       padding-bottom: 50px; }
     .podcast .sub-grid .descripcion {
-      max-width: 70vw;
-      padding-bottom: 4rem; }
+      max-width: 70vw; }
   .podcast .sets1 {
     display: grid;
     justify-content: space-around;
@@ -323,7 +326,9 @@
         background-color: #353030; }
       .main-shows .section-shows .card .card-title {
         font-weight: 700;
-        color: #ea8989; }
+        font-family: "Open Sans", sans-serif;
+        color: #ea8989;
+        font-size: 40px; }
       .main-shows .section-shows .card .list-group {
         background-color: #353030; }
         .main-shows .section-shows .card .list-group .fechas {

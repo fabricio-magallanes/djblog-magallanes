@@ -12,11 +12,12 @@
         grid-area: sub-grid;
 
         .sub-podcast {
-            font-size: 43px;
-            font-weight: 700;
+            font-family: $font-h2;
+            color: $colorSubtitulo;
+            font-size: 40px;
+            font-weight: 400;
             text-transform: uppercase;
             text-align: center;
-            color: $colorSubtitulo;
             padding-bottom: 50px;
 
         }
@@ -24,8 +25,8 @@
         .descripcion {
             @extend %estiloparrafo;
             max-width: 70vw;
-            padding-bottom: 4rem;
-            
+          
+
         }
 
     }

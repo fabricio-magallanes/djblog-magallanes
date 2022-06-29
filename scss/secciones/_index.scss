@@ -31,6 +31,7 @@
 
         p {
             @extend %estiloparrafo;
+            
         }
     }
 
@@ -60,8 +61,11 @@
         font-size: 20px;
 
         h2 {
+            font-family: $font-h2;
             color: $colorSubtitulo;
             font-size: 40px;
+            font-weight: 400;
+            
         }
 
         ul {
