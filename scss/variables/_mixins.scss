@@ -1,0 +1,6 @@
+@mixin btn-nav ($colorfondo, $borde, $listile) {
+
+    background-color: $colorfondo;
+    border-style: $borde;
+    list-style: $listile;
+}   
