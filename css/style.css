@@ -214,6 +214,13 @@
       text-align: center;
       color: #ea8989;
       padding-bottom: 50px; }
+    .podcast .sub-grid .descripcion {
+      color: #b1b1c5;
+      margin: auto;
+      text-align: center;
+      font-size: larger;
+      max-width: 70vw;
+      padding-bottom: 3rem; }
   .podcast .sets1 {
     display: grid;
     justify-content: space-around;
