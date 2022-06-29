@@ -13,6 +13,12 @@
 
             .card-body {
                 background-color: #353030;
+
+                p {
+                    color: $colorTexto
+                }
+
+                ;
             }
 
             .card-title {
@@ -37,23 +43,23 @@
 }
 
 @media (max-width: 1024px) {
-    .main-shows{
-        .section-shows{
-            .card{
+    .main-shows {
+        .section-shows {
+            .card {
                 max-width: 265px;
                 text-align: center;
             }
         }
     }
 }
-@media (max-width :480px){
-    .main-shows{
-        .section-shows{
-            .card{
+
+@media (max-width :480px) {
+    .main-shows {
+        .section-shows {
+            .card {
                 max-width: 240px;
                 text-align: center;
             }
         }
     }
 }
-
