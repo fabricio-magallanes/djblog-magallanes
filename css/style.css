@@ -3,7 +3,7 @@
   margin: 0;
   box-sizing: border-box; }
 
-.main-index .frases p, .podcast .sub-grid .descripcion {
+.main-index .frases p, .podcast .sub-grid .descripcion, .main-shows .section-shows .card .card-body p, .main-bio .card-bio .card-body p, .main-contacto .contact-main .form-flex .seccform p {
   color: #b1b1c5;
   margin: auto;
   text-align: center;
@@ -321,8 +321,6 @@
       text-align: center; }
       .main-shows .section-shows .card .card-body {
         background-color: #353030; }
-        .main-shows .section-shows .card .card-body p {
-          color: #b1b1c5; }
       .main-shows .section-shows .card .card-title {
         font-weight: 700;
         color: #ea8989; }
@@ -359,9 +357,6 @@
         color: #ea8989;
         text-align: center;
         padding: 1rem; }
-      .main-bio .card-bio .card-body p {
-        color: #b1b1c5;
-        text-align: center; }
 
 @media (max-width: 1024px) {
   .main-bio .card-bio {
@@ -395,9 +390,7 @@
         text-transform: uppercase;
         margin-bottom: 2rem; }
       .main-contacto .contact-main .form-flex .seccform p {
-        max-width: 50vw;
-        color: #b1b1c5;
-        text-align: center; }
+        max-width: 50vw; }
       .main-contacto .contact-main .form-flex .seccform .formulario textarea {
         color: black;
         background-color: #8f8f8f;

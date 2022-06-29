@@ -15,10 +15,10 @@
                 background-color: #353030;
 
                 p {
-                    color: $colorTexto
+                   @extend %estiloparrafo;
                 }
 
-                ;
+                
             }
 
             .card-title {

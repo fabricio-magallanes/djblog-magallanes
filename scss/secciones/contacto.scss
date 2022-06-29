@@ -28,8 +28,7 @@
 
                 p {
                     max-width: 50vw;
-                    color: $colorTexto;
-                    text-align: center;
+                    @extend %estiloparrafo;
                 }
 
                 .formulario {

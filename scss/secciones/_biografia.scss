@@ -21,8 +21,7 @@
             }
 
             p {
-                color: $colorTexto;
-                text-align: center;
+                @extend %estiloparrafo;
             }
         }
 
