@@ -397,6 +397,10 @@
         color: #ea8989;
         text-transform: uppercase;
         margin-bottom: 2rem; }
+      .main-contacto .contact-main .form-flex .seccform p {
+        max-width: 50vw;
+        color: #b1b1c5;
+        text-align: center; }
       .main-contacto .contact-main .form-flex .seccform .formulario textarea {
         color: black;
         background-color: #8f8f8f;
@@ -447,7 +451,9 @@
   .main-contacto .contact-main .form-flex {
     justify-content: center; }
     .main-contacto .contact-main .form-flex .fotoform {
-      display: none; } }
+      display: none; }
+    .main-contacto .contact-main .form-flex .seccform p {
+      max-width: 70vw; } }
 
 @media (max-width: 480px) {
   .main-contacto .contact-main .form-flex .seccform .formulario textarea {
@@ -458,6 +464,8 @@
     font-weight: bolder;
     max-width: 200px;
     max-height: 200px; }
+  .main-contacto .contact-main .form-flex .seccform p {
+    max-width: 70vw; }
   .main-contacto .contact-main .form-flex .seccform .contrataciones {
     font-size: 25px; } }
 

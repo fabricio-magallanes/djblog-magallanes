@@ -26,6 +26,12 @@
                     margin-bottom: 2rem;
                 }
 
+                p {
+                    max-width: 50vw;
+                    color: $colorTexto;
+                    text-align: center;
+                }
+
                 .formulario {
                     textarea {
                         color: black;
@@ -113,6 +119,12 @@
                 .fotoform {
                     display: none;
                 }
+                .seccform{
+                    p {
+                        max-width: 70vw;
+                    }
+
+                }
             }
         }
     }
@@ -137,7 +149,12 @@
                         }
 
                     }
-                    .contrataciones{
+
+                    p {
+                        max-width: 70vw;
+                    }
+
+                    .contrataciones {
                         font-size: 25px;
 
                     }
