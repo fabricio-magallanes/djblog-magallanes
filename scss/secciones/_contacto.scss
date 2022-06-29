@@ -20,7 +20,10 @@
                 align-items: center;
 
                 .contrataciones {
-                    font-size: 32px;
+                    font-weight: 400;
+                    font-family: $font-h2;
+                    color: $colorSubtitulo;
+                    font-size: 40px;
                     color: $colorSubtitulo;
                     text-transform: uppercase;
                     margin-bottom: 2rem;

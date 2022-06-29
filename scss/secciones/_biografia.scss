@@ -14,8 +14,10 @@
             background-color: #353030;
 
             .card-title {
-                font-weight: 700;
+                font-family: $font-h2;
                 color: $colorSubtitulo;
+                font-size: 40px;
+                font-weight: 400;
                 text-align: center;
                 padding: 1rem;
             }

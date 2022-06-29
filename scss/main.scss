@@ -4,10 +4,12 @@
     box-sizing: border-box;
 }
 
-@import './variables/mixins.scss';
+
 @import './variables/letras.scss';
-@import './variables/extend.scss';
 @import './variables/tipografia';
+@import './variables/extend.scss';
+@import './variables/mixins.scss';
+
 
 
 @import './secciones/header';

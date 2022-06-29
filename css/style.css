@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -8,7 +9,8 @@
   color: #b1b1c5;
   margin: auto;
   text-align: center;
-  font-size: larger; }
+  font-size: larger;
+  font-family: font-texto; }
 
 /* navbar */
 .header .navbar {
@@ -220,7 +222,8 @@
       text-align: center;
       padding-bottom: 50px; }
     .podcast .sub-grid .descripcion {
-      max-width: 70vw; }
+      max-width: 70vw;
+      padding-bottom: 4rem; }
   .podcast .sets1 {
     display: grid;
     justify-content: space-around;
@@ -325,7 +328,7 @@
       .main-shows .section-shows .card .card-body {
         background-color: #353030; }
       .main-shows .section-shows .card .card-title {
-        font-weight: 700;
+        font-weight: 400;
         font-family: "Open Sans", sans-serif;
         color: #ea8989;
         font-size: 40px; }
@@ -358,8 +361,10 @@
     .main-bio .card-bio .card-body {
       background-color: #353030; }
       .main-bio .card-bio .card-body .card-title {
-        font-weight: 700;
+        font-family: "Open Sans", sans-serif;
         color: #ea8989;
+        font-size: 40px;
+        font-weight: 400;
         text-align: center;
         padding: 1rem; }
 
@@ -390,7 +395,10 @@
       flex-direction: column;
       align-items: center; }
       .main-contacto .contact-main .form-flex .seccform .contrataciones {
-        font-size: 32px;
+        font-weight: 400;
+        font-family: "Open Sans", sans-serif;
+        color: #ea8989;
+        font-size: 40px;
         color: #ea8989;
         text-transform: uppercase;
         margin-bottom: 2rem; }
