@@ -1,0 +1,32 @@
+1-cambios en la etiqueta title en los 5 html
+index- shannes/inicio
+djstets- shannes/sets
+shows- shannes/shows
+biogrsfia- shannes/bio
+contacto- shannes/ contacto
+
+2-agregue meta keywords a los 5 html
+  index- shannes, musica, generos, house, rominimal, mixer, pioneer
+  djsets- shannes, podcast, soundcloud, track, musical
+  shows- shannes, shows, manija, clubbin, derechos
+  biografía- shannes, fabricio, magallanes, dj, derechos
+  contacto- shannes, contataciones, redes, formulario, contactaremos
+
+
+3-agregue meta description a los 5 html
+  index-la música ha sido compañera del ser humanov desde los comienzos de su historia La verdadera belleza de la música es que conecta con la gente. Lleva un mensaje y nosotros, los músicos, somos los mensajeros. la musica expresa miedos, alegrías, sentimientos muy profundos
+  djsets- Escucha todos los podcast que shannes ha lanzado en su cuenta de soundcloud. La misma cuenta con ocho tracks,variados pero siempre respetando un estilo.  tech house,  deep house, house, minimal, groove y hasta techno se puede encontrar en este viaje musical. No importan los géneros y no sirve encasillarse en ellos, la musica es musica y es lo único que importa
+  shows- Proximas presentaciones de Shannes, euro tour por 5 paises. En cual nos vemos?
+  biografia- Fabricio magallanes es un dj nacido en montevideo en 1990, amante de la musica de toda la vida descubre su pasion por la electronica a fines de 2016.
+  contacto- Podes contactar a Shannes a travez de las redes sociales, las cuales se encuentran al final de la pagina
+
+4-extend párrafos en  index
+-extend párrafos dj sets
+-extend párrafos a shows
+-extend párrafos a biografía
+- extend párrafos a contacto
+
+5- cambios en la tipografía de títulos y texto..en todos los scscc
+
+9-aplique extend en los botones del nav
+
