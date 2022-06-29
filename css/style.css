@@ -135,6 +135,15 @@
     max-width: 350px; }
   .main-index .vid video {
     max-width: 350px; }
+  .main-index .frases {
+    max-width: 70vw;
+    margin: auto;
+    padding-top: 3rem; }
+    .main-index .frases p {
+      color: #b1b1c5;
+      margin: auto;
+      text-align: center;
+      font-size: larger; }
 
 /* generos y set up */
 .main-2 {
@@ -170,9 +179,13 @@
     max-width: 220px;
     padding-bottom: 2rem; }
   .main-index .vid {
-    display: none; } }
+    display: none; }
+  .main-index .frases p {
+    font-size: 16px; } }
 
 @media (max-width: 480px) {
+  .main-index .frases p {
+    font-size: small; }
   .main-2 .div {
     display: flex;
     flex-direction: column; }

@@ -24,6 +24,19 @@
         }
     }
 
+    .frases {
+        max-width: 70vw;
+        margin: auto;
+        padding-top: 3rem;
+
+        p {
+            color: $colorTexto;
+            margin: auto;
+            text-align: center;
+            font-size: larger;
+        }
+    }
+
 }
 
 
@@ -86,13 +99,30 @@
             display: none;
         }
 
+        .frases {
+
+            p {
+
+                font-size: 16px;
+            }
+        }
+
     }
 }
 
 @media (max-width: 480px) {
 
 
-    
+
+    .main-index {
+        .frases {
+            p {
+
+                font-size: small;
+            }
+        }
+
+    }
 
     .main-2 {
         .div {
