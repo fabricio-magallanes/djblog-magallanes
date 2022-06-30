@@ -36,7 +36,7 @@
 
         p {
             @extend %estiloparrafo2;
-            width: 420px;
+          
 
         }
 
@@ -56,21 +56,13 @@
 @media (max-width: 1024px) {
     .main-shows {
         .section-shows {
-            .card {
-                max-width: 265px;
-                text-align: center;
-            }
+         
         }
     }
 }
 
 @media (max-width :480px) {
     .main-shows {
-        .section-shows {
-            .card {
-                max-width: 240px;
-                text-align: center;
-            }
+      
         }
     }
-}

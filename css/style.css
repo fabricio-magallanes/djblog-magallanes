@@ -350,21 +350,9 @@
         font-family: "Open Sans", sans-serif;
         color: #ea8989;
         font-size: 40px; }
-    .main-shows .section-shows p {
-      width: 420px; }
     .main-shows .section-shows .lista-fechas .fechas {
       margin: 1rem;
       list-style: none; }
-
-@media (max-width: 1024px) {
-  .main-shows .section-shows .card {
-    max-width: 265px;
-    text-align: center; } }
-
-@media (max-width: 480px) {
-  .main-shows .section-shows .card {
-    max-width: 240px;
-    text-align: center; } }
 
 /* }biografia */
 .main-bio {
