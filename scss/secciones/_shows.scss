@@ -1,48 +1,50 @@
 /* proximos shows */
 
+
 .main-shows {
     background-color: #353030;
 
+
     .section-shows {
-        justify-content: center;
-        padding-top: 3rem;
-
-        .card {
-            max-width: 300pxrem;
-            text-align: center;
-
-            .card-body {
-                background-color: #353030;
-
-                p {
-                    @extend %estiloparrafo;
-                }
 
 
-            }
+        background-image: url(../../fotos-kyh/9FAEAE73-C4B5-4DF0-9DA1-9B4D6CDE81ED.JPG);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 89vh;
 
-            .card-title {
+        .shows {
+            display: flex;
+            flex-direction: column;
+           padding: 3rem;
+
+            .show-title {
                 font-weight: 400;
                 font-family: $font-h2;
                 color: $colorSubtitulo;
                 font-size: 40px;
             }
 
-            .list-group {
-                background-color: #353030;
-
-                .fechas {
-                    list-style: none;
-                    color: $colorTexto;
-                    font-weight: bold;
-                    margin: 1rem;
-
-                }
-            }
         }
 
+
+        p {
+            @extend %estiloparrafo2;
+        }
+
+        .lista-fechas {
+            .fechas {
+                margin: 1rem;
+                list-style: none;
+                @extend %estiloparrafo2;
+
+            }
+        }
     }
+
 }
+
 
 @media (max-width: 1024px) {
     .main-shows {
