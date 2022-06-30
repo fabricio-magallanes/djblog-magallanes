@@ -109,23 +109,3 @@
 
 
 }
-
-/* titulo o logo */
-
-@keyframes logo {
-    0% {
-
-        transform: rotate(0deg);
-        transition: .5s;
-    }
-
-    50% {
-        transform: rotate(-4deg);
-        transition: .5s;
-    }
-
-    100% {
-        transform: rotate(0deg);
-        transition: .5s;
-    }
-}

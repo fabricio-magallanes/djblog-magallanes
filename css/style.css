@@ -13,7 +13,7 @@
   font-size: 22px;
   font-family: font-texto; }
 
-.main-shows .section-shows p, .main-shows .section-shows .lista-fechas .fechas {
+.main-shows .section-shows .shows p, .main-shows .section-shows .shows .lista-fechas .fechas {
   color: #b1b1c5;
   font-size: 22px;
   font-family: font-texto; }
@@ -76,18 +76,6 @@
     padding: 10px; }
   .navbar-toggler {
     padding: 0px; } }
-
-/* titulo o logo */
-@keyframes logo {
-  0% {
-    transform: rotate(0deg);
-    transition: .5s; }
-  50% {
-    transform: rotate(-4deg);
-    transition: .5s; }
-  100% {
-    transform: rotate(0deg);
-    transition: .5s; } }
 
 /* footer */
 .footer .pie {
@@ -344,15 +332,42 @@
       padding: 3rem;
       justify-content: flex-start;
       max-width: 42vw;
-      text-align: center; }
+      text-align: center;
+      padding-top: 3rem; }
       .main-shows .section-shows .shows .show-title {
         font-weight: 400;
         font-family: "Open Sans", sans-serif;
         color: #ea8989;
-        font-size: 40px; }
-    .main-shows .section-shows .lista-fechas .fechas {
-      margin: 1rem;
-      list-style: none; }
+        font-size: 40px;
+        margin-bottom: 20px; }
+      .main-shows .section-shows .shows p {
+        margin-bottom: 20px; }
+      .main-shows .section-shows .shows .lista-fechas {
+        padding: 0; }
+        .main-shows .section-shows .shows .lista-fechas .fechas {
+          margin: 1rem;
+          list-style: none;
+          margin-bottom: 20px; }
+
+@media (max-width: 1024px) {
+  .main-shows .section-shows .shows {
+    display: flex;
+    flex-direction: column;
+    max-width: none;
+    text-align: center; } }
+
+@media (max-width: 480px) {
+  .main-shows .section-shows .shows {
+    display: flex;
+    flex-direction: column;
+    max-width: none;
+    text-align: center; }
+    .main-shows .section-shows .shows .show-title {
+      font-size: 25px; }
+    .main-shows .section-shows .shows p {
+      font-size: 18px; }
+    .main-shows .section-shows .shows .lista-fechas li {
+      font-size: 15px; } }
 
 /* }biografia */
 .main-bio {
