@@ -331,9 +331,9 @@
       flex-direction: column;
       padding: 3rem;
       justify-content: flex-start;
-      max-width: 42vw;
+      max-width: 57vw;
       text-align: center;
-      padding-top: 3rem; }
+      padding-top: 6rem; }
       .main-shows .section-shows .shows .show-title {
         font-weight: 400;
         font-family: "Open Sans", sans-serif;
@@ -366,8 +366,8 @@
       font-size: 25px; }
     .main-shows .section-shows .shows p {
       font-size: 18px; }
-    .main-shows .section-shows .shows .lista-fechas li {
-      font-size: 15px; } }
+    .main-shows .section-shows .shows .lista-fechas .fechas {
+      font-size: 18px; } }
 
 /* }biografia */
 .main-bio {

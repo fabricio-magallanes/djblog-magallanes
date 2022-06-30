@@ -21,9 +21,9 @@
             flex-direction: column;
             padding: 3rem;
             justify-content: flex-start;
-            max-width: 42vw;
+            max-width: 57vw;
             text-align: center;
-            padding-top: 3rem;
+            padding-top: 6rem;
 
             .show-title {
                 font-weight: 400;
@@ -89,8 +89,8 @@
                 }
 
                 .lista-fechas {
-                    li {
-                        font-size: 15px;
+                    .fechas {
+                        font-size: 18px;
                     }
                 }
             }
