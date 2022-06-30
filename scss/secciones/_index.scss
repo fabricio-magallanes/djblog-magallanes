@@ -1,8 +1,12 @@
 /*   main fotos y videos */
+
+
+
 .main-index {
     background-color: #353030;
+    padding-top: 1rem;
 
-    .img,
+    
     .vid {
         display: flex;
         justify-content: space-around;
@@ -10,13 +14,6 @@
         flex-wrap: wrap;
     }
 
-
-    .img {
-        img {
-            max-width: 350px;
-        }
-
-    }
 
     .vid {
         video {
@@ -41,10 +38,10 @@
 
 
 
-
 /* generos y set up */
 .main-2 {
     background-color: #353030;
+    
 
     .div {
         display: flex;
