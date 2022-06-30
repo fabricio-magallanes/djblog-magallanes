@@ -5,11 +5,12 @@
   margin: 0;
   box-sizing: border-box; }
 
-.main-index .frases p, .podcast .sub-grid .descripcion, .main-shows .section-shows .card .card-body p, .main-bio .card-bio .card-body p, .main-contacto .contact-main .form-flex .seccform p {
+.main-index .frases p, .main-2 .generos ul li,
+.main-2 .set-up ul li, .podcast .sub-grid .descripcion, .main-shows .section-shows .card .card-body p, .main-bio .card-bio .card-body p, .main-contacto .contact-main .form-flex .seccform p {
   color: #b1b1c5;
   margin: auto;
   text-align: center;
-  font-size: larger;
+  font-size: 22px;
   font-family: font-texto; }
 
 /* navbar */
@@ -133,15 +134,13 @@
 
 /*   main fotos y videos */
 .main-index {
-  background-color: #353030; }
-  .main-index .img,
+  background-color: #353030;
+  padding-top: 1rem; }
   .main-index .vid {
     display: flex;
     justify-content: space-around;
     padding-top: 3rem;
     flex-wrap: wrap; }
-  .main-index .img img {
-    max-width: 350px; }
   .main-index .vid video {
     max-width: 350px; }
   .main-index .frases {
@@ -171,9 +170,7 @@
       font-weight: 400; }
     .main-2 .generos ul li,
     .main-2 .set-up ul li {
-      list-style: none;
-      color: #b1b1c5;
-      padding: 5px; }
+      list-style: none; }
     .main-2 .generos .listgeneros,
     .main-2 .generos .list-setup,
     .main-2 .set-up .listgeneros,

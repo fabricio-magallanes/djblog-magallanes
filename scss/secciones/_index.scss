@@ -68,8 +68,7 @@
         ul {
             li {
                 list-style: none;
-                color: $colorTexto;
-                padding: 5px;
+                @extend %estiloparrafo;
             }
         }
 
