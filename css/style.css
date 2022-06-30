@@ -331,16 +331,20 @@
   background-color: #353030; }
   .main-shows .section-shows {
     background-image: url(../../fotos-kyh/9FAEAE73-C4B5-4DF0-9DA1-9B4D6CDE81ED.JPG);
+    background-color: #484747;
+    background-blend-mode: soft-light;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 89vh; }
+    min-height: 89vh;
+    border-radius: 50px; }
     .main-shows .section-shows .shows {
       display: flex;
       flex-direction: column;
       padding: 3rem;
       justify-content: flex-start;
-      max-width: 42vw; }
+      max-width: 42vw;
+      text-align: center; }
       .main-shows .section-shows .shows .show-title {
         font-weight: 400;
         font-family: "Open Sans", sans-serif;
