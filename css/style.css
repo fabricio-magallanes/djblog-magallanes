@@ -124,15 +124,13 @@
 
 /*   main fotos y videos */
 .main-index {
-  background-color: #353030; }
-  .main-index .img,
+  background-color: #353030;
+  padding-top: 1rem; }
   .main-index .vid {
     display: flex;
     justify-content: space-around;
     padding-top: 3rem;
     flex-wrap: wrap; }
-  .main-index .img img {
-    max-width: 350px; }
   .main-index .vid video {
     max-width: 350px; }
   .main-index .frases {
@@ -143,7 +141,8 @@
       color: #b1b1c5;
       margin: auto;
       text-align: center;
-      font-size: larger; }
+      font-size: larger;
+      background-color: black; }
 
 /* generos y set up */
 .main-2 {
