@@ -17,7 +17,9 @@
         .shows {
             display: flex;
             flex-direction: column;
-           padding: 3rem;
+            padding: 3rem;
+            justify-content: flex-start;
+            max-width: 42vw;
 
             .show-title {
                 font-weight: 400;
@@ -31,6 +33,8 @@
 
         p {
             @extend %estiloparrafo2;
+            width: 420px;
+
         }
 
         .lista-fechas {

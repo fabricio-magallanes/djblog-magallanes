@@ -338,12 +338,16 @@
     .main-shows .section-shows .shows {
       display: flex;
       flex-direction: column;
-      padding: 3rem; }
+      padding: 3rem;
+      justify-content: flex-start;
+      max-width: 42vw; }
       .main-shows .section-shows .shows .show-title {
         font-weight: 400;
         font-family: "Open Sans", sans-serif;
         color: #ea8989;
         font-size: 40px; }
+    .main-shows .section-shows p {
+      width: 420px; }
     .main-shows .section-shows .lista-fechas .fechas {
       margin: 1rem;
       list-style: none; }
