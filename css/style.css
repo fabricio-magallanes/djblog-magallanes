@@ -5,7 +5,7 @@
 
 /* navbar */
 .header .navbar {
-  background-image: linear-gradient(180deg, black, #353030); }
+  background-image: url("../../fotos-kyh/"); }
 
 .header__logo {
   padding: 25px;

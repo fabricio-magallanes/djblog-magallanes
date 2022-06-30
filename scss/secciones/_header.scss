@@ -1,131 +1,132 @@
 /* navbar */
 .header {
     .navbar {
-        background-image: linear-gradient(180deg, black, #353030)
-    }
-
-//logo//
-    &__logo {
-        padding: 25px;
-        color: $colorTitulos;
-        text-decoration: none;
-        font-size: 60px;
-        transform: skew(354deg);
-        animation-name: logo;
-        animation-duration: 5s;
-        animation-iteration-count: infinite;
-
-        &:hover {
-            color: rgb(236, 246, 254);
-            transition: .2s;
-            transform: scale(1.12);
+        background-image: url("../../fotos-kyh/");
         }
-    }
-//nav//
-    &__navegacion {
-        display: flex;
-        flex-wrap: inherit;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
 
-
-    &__barra {
-        justify-content: flex-end;
-
-        li {
-            border-style: groove;
-            margin: 9px;
-            padding: 7px;
-            background-color: rgb(143, 143, 143);
-            list-style: none;
-
-            a {
-                color: rgb(0, 0, 0);
-                text-decoration: none;
-
-
-
-            }
-
+        //logo//}}
+        &__logo {
+            padding: 25px;
+            color: $colorTitulos;
+            text-decoration: none;
+            font-size: 60px;
+            transform: skew(354deg);
+            animation-name: logo;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
 
             &:hover {
-                background-color: rgb(236, 246, 254);
+                color: rgb(236, 246, 254);
                 transition: .2s;
                 transform: scale(1.12);
-                color: black;
+            }
+        }
+
+        //nav//
+        &__navegacion {
+            display: flex;
+            flex-wrap: inherit;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+
+        &__barra {
+            justify-content: flex-end;
+
+            li {
+                border-style: groove;
+                margin: 9px;
+                padding: 7px;
+                background-color: rgb(143, 143, 143);
+                list-style: none;
+
+                a {
+                    color: rgb(0, 0, 0);
+                    text-decoration: none;
+
+
+
+                }
+
+
+                &:hover {
+                    background-color: rgb(236, 246, 254);
+                    transition: .2s;
+                    transform: scale(1.12);
+                    color: black;
+
+                }
 
             }
 
+            &--active {
+                font-weight: bolder
+            }
+
+
+            //color hamburguesa//
         }
 
-        &--active {
-            font-weight: bolder
+        .navbar-toggler {
+            background-color: #8f8f8f;
         }
 
 
-        //color hamburguesa//
-    }
 
-    .navbar-toggler {
-        background-color: #8f8f8f;
+
     }
 
 
+    @media (max-width: 1024px) {
+
+        .header {
+            &__logo {
+                font-size: 45px;
+                padding: 10px;
+            }
+        }
 
 
-}
+    }
 
 
-@media (max-width: 1024px) {
+    @media (max-width: 480px) {
 
-    .header {
-        &__logo {
-            font-size: 45px;
-            padding: 10px;
+
+
+        .header {
+            &__logo {
+                font-size: 30px;
+                padding: 10px;
+            }
+        }
+
+        .navbar-toggler {
+
+            padding: 0px;
+        }
+
+
+    }
+
+    /* titulo o logo */
+
+    @keyframes logo {
+        0% {
+
+            transform: rotate(0deg);
+            transition: .5s;
+        }
+
+        50% {
+            transform: rotate(-4deg);
+            transition: .5s;
+        }
+
+        100% {
+            transform: rotate(0deg);
+            transition: .5s;
         }
     }
-  
-
-    }
-
-    
-@media (max-width: 480px) {
-
-
-
-    .header {
-        &__logo {
-            font-size: 30px;
-            padding: 10px;
-        }
-    }
-
-    .navbar-toggler {
-      
-        padding: 0px;
-    }
-
-
-}
-
-/* titulo o logo */
-
-@keyframes logo {
-    0% {
-
-        transform: rotate(0deg);
-        transition: .5s;
-    }
-
-    50% {
-        transform: rotate(-4deg);
-        transition: .5s;
-    }
-
-    100% {
-        transform: rotate(0deg);
-        transition: .5s;
-    }
-}
