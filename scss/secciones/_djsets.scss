@@ -102,7 +102,13 @@
             max-width: 250px;
             max-height: 300px;
             margin: 10px;
+            box-shadow: 0px 0px 56px 6px rgb(155 157 183 / 34%);
+            &:hover{
+                filter: grayscale(100%);
+            }
         }
+
+    
 
     }
 

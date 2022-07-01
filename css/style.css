@@ -251,7 +251,8 @@
     .podcast .sets1 iframe {
       max-width: 250px;
       max-height: 300px;
-      margin: 10px; }
+      margin: 10px;
+      box-shadow: 0px 0px 56px 6px rgba(0, 0, 0, 0.34); }
 
 @media (max-width: 1024px) {
   .podcast {
