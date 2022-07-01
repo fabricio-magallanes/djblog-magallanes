@@ -395,17 +395,14 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 80vh;
-    border-radius: 50px;
-    justify-content: flex-end; }
+    height: 80vh;
+    border-radius: 50px; }
     .main-bio .bio .flex-bio {
       display: flex;
       flex-direction: column;
-      padding: 2rem;
       justify-content: flex-end;
       max-width: 57vw;
-      text-align: center;
-      padding-top: 3rem; }
+      text-align: center; }
       .main-bio .bio .flex-bio .bio-title {
         font-family: "Open Sans", sans-serif;
         color: #ea8989;
