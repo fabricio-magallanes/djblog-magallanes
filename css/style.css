@@ -252,7 +252,13 @@
       max-width: 250px;
       max-height: 300px;
       margin: 10px;
-      box-shadow: 0px 0px 56px 6px rgba(0, 0, 0, 0.34); }
+      -webkit-box-shadow: 10px 10px 40px -8px #a3a3d6;
+      -moz-box-shadow: 10px 10px 40px -8px #a3a3d6;
+      box-shadow: 10px 10px 40px -8px #a3a3d6; }
+      .podcast .sets1 iframe:hover {
+        filter: grayscale(70%);
+        transition: .2s;
+        transform: scale(1.12); }
 
 @media (max-width: 1024px) {
   .podcast {

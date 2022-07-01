@@ -102,13 +102,18 @@
             max-width: 250px;
             max-height: 300px;
             margin: 10px;
-            box-shadow: 0px 0px 56px 6px rgb(155 157 183 / 34%);
-            &:hover{
-                filter: grayscale(100%);
+            -webkit-box-shadow: 10px 10px 40px -8px rgba(163, 163, 214, 1);
+            -moz-box-shadow: 10px 10px 40px -8px rgba(163, 163, 214, 1);
+            box-shadow: 10px 10px 40px -8px rgba(163, 163, 214, 1);
+
+            &:hover {
+                filter: grayscale(70%);
+                transition: .2s;
+                transform: scale(1.12);
             }
         }
 
-    
+
 
     }
 
