@@ -6,7 +6,7 @@
     background-color: #353030;
     padding-top: 1rem;
 
-    
+
     .vid {
         display: flex;
         justify-content: space-around;
@@ -28,7 +28,7 @@
 
         p {
             @extend %estiloparrafo;
-            
+
         }
     }
 
@@ -41,7 +41,7 @@
 /* generos y set up */
 .main-2 {
     background-color: #353030;
-    
+
 
     .div {
         display: flex;
@@ -62,7 +62,7 @@
             color: $colorSubtitulo;
             font-size: 40px;
             font-weight: 400;
-            
+
         }
 
         ul {
@@ -72,10 +72,7 @@
             }
         }
 
-        .listgeneros,
-        .list-setup {
-            padding: 25px;
-        }
+
 
     }
 
@@ -85,18 +82,14 @@
 @media (max-width:1024px) {
 
     .main-index {
-        .img {
-            img {
-                max-width: 220px;
-                padding-bottom: 2rem;
-            }
-        }
+        
 
         .vid {
             display: none;
         }
 
         .frases {
+          
 
             p {
 
@@ -104,6 +97,23 @@
             }
         }
 
+    }
+
+    .main-2 {
+        .div {
+
+            .generos,
+            .set-up {
+                margin-top: 40px;
+                ul {
+                    li {
+                        list-style: none;
+
+                        font-size: medium;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -113,10 +123,7 @@
 
     .main-index {
         .frases {
-            p {
-
-                font-size: small;
-            }
+            display: none;
         }
 
     }
@@ -129,7 +136,7 @@
             .generos,
             .set-up {
                 h2 {
-                    color: white;
+                    color: $colorSubtitulo;
                     font-size: 25px;
                 }
 
@@ -140,6 +147,13 @@
         .listgeneros,
         .list-setup {
             padding: 2px;
+
+            li {
+                font-size: smaller;
+            }
+
+
+
         }
 
 
