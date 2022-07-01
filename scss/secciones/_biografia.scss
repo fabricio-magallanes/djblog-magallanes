@@ -14,16 +14,14 @@
         background-size: cover;
         height: 80vh;
         border-radius: 50px;
-   
+
 
         .flex-bio {
             display: flex;
             flex-direction: column;
-         
-            justify-content: flex-end;
             max-width: 57vw;
-            text-align: center;
-            
+            margin-left: 33vw;
+
 
             .bio-title {
                 font-family: $font-h2;
@@ -34,7 +32,7 @@
                 padding: 1rem;
             }
 
-            p {
+            .bio-text {
                 @extend %estiloparrafo;
             }
         }
@@ -48,7 +46,18 @@
 @media (max-width: 1024px) {
     .main-bio {
         .bio {
-            min-height: 60 auto;
+            max-width: 90vw;
+
+            .flex-bio {
+                margin: auto;
+                max-width: auto;
+                max-width: 90vw;
+
+                .bio-text {
+                    font-size: 18px;
+                }
+            }
+
         }
 
     }
@@ -56,14 +65,22 @@
 
 
 @media (max-width :480px) {
-
     .main-bio {
         .bio {
-            min-height: auto;
+
+
+            .flex-bio {
+
+                .bio-title {
+                    font-size: 22px;
+                }
+
+                .bio-text {
+                    font-size: 16px;
+                }
+            }
+
         }
 
     }
-
-
-
 }
