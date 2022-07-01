@@ -82,18 +82,19 @@
 @media (max-width:1024px) {
 
     .main-index {
-        
+
 
         .vid {
             display: none;
         }
 
         .frases {
-          
+
 
             p {
 
                 font-size: 16px;
+                margin: auto;
             }
         }
 
@@ -104,7 +105,8 @@
 
             .generos,
             .set-up {
-                margin-top: 40px;
+                margin-top: 30px;
+
                 ul {
                     li {
                         list-style: none;
@@ -132,15 +134,21 @@
         .div {
             display: flex;
             flex-direction: column;
+            padding-top: 40px;
+
 
             .generos,
             .set-up {
+                margin-top: 10px;
+
                 h2 {
                     color: $colorSubtitulo;
                     font-size: 25px;
                 }
+            }
 
-
+            .set-up {
+                margin-top: 40px;
             }
         }
 
@@ -151,11 +159,7 @@
             li {
                 font-size: smaller;
             }
-
-
-
         }
-
 
     }
 

@@ -13,17 +13,17 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        min-height: 80vh;
+        height: 80vh;
         border-radius: 50px;
 
         .shows {
             display: flex;
             flex-direction: column;
-            padding: 3rem;
+            padding-top: 30px;
             justify-content: flex-start;
             max-width: 57vw;
             text-align: center;
-            padding-top: 6rem;
+
 
             .show-title {
                 font-weight: 400;
@@ -45,7 +45,7 @@
                 padding: 0;
 
                 .fechas {
-                    margin: 1rem;
+                   
                     list-style: none;
                     @extend %estiloparrafo2;
                     margin-bottom: 20px;
@@ -60,6 +60,8 @@
 @media (max-width: 1024px) {
     .main-shows {
         .section-shows {
+            max-width: 90vw;
+
             .shows {
                 display: flex;
                 flex-direction: column;
@@ -71,7 +73,7 @@
 
 }
 
-@media (max-width :480px) {
+@media (max-width :500px) {
     .main-shows {
         .section-shows {
             .shows {
@@ -79,18 +81,19 @@
                 flex-direction: column;
                 max-width: none;
                 text-align: center;
+                max-width: 85vw;
 
                 .show-title {
-                    font-size: 25px;
+                    font-size: 20px;
                 }
 
                 p {
-                    font-size: 18px;
+                    font-size: 14px;
                 }
 
                 .lista-fechas {
                     .fechas {
-                        font-size: 18px;
+                        font-size: 14px;
                     }
                 }
             }

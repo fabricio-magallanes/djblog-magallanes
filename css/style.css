@@ -167,10 +167,11 @@
   .main-index .vid {
     display: none; }
   .main-index .frases p {
-    font-size: 16px; }
+    font-size: 16px;
+    margin: auto; }
   .main-2 .div .generos,
   .main-2 .div .set-up {
-    margin-top: 40px; }
+    margin-top: 30px; }
     .main-2 .div .generos ul li,
     .main-2 .div .set-up ul li {
       list-style: none;
@@ -181,11 +182,17 @@
     display: none; }
   .main-2 .div {
     display: flex;
-    flex-direction: column; }
-    .main-2 .div .generos h2,
-    .main-2 .div .set-up h2 {
-      color: #ea8989;
-      font-size: 25px; }
+    flex-direction: column;
+    padding-top: 40px; }
+    .main-2 .div .generos,
+    .main-2 .div .set-up {
+      margin-top: 10px; }
+      .main-2 .div .generos h2,
+      .main-2 .div .set-up h2 {
+        color: #ea8989;
+        font-size: 25px; }
+    .main-2 .div .set-up {
+      margin-top: 40px; }
   .main-2 .listgeneros,
   .main-2 .list-setup {
     padding: 2px; }
@@ -332,16 +339,15 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 80vh;
+    height: 80vh;
     border-radius: 50px; }
     .main-shows .section-shows .shows {
       display: flex;
       flex-direction: column;
-      padding: 3rem;
+      padding-top: 30px;
       justify-content: flex-start;
       max-width: 57vw;
-      text-align: center;
-      padding-top: 6rem; }
+      text-align: center; }
       .main-shows .section-shows .shows .show-title {
         font-weight: 400;
         font-family: "Open Sans", sans-serif;
@@ -353,29 +359,31 @@
       .main-shows .section-shows .shows .lista-fechas {
         padding: 0; }
         .main-shows .section-shows .shows .lista-fechas .fechas {
-          margin: 1rem;
           list-style: none;
           margin-bottom: 20px; }
 
 @media (max-width: 1024px) {
-  .main-shows .section-shows .shows {
-    display: flex;
-    flex-direction: column;
-    max-width: none;
-    text-align: center; } }
+  .main-shows .section-shows {
+    max-width: 90vw; }
+    .main-shows .section-shows .shows {
+      display: flex;
+      flex-direction: column;
+      max-width: none;
+      text-align: center; } }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .main-shows .section-shows .shows {
     display: flex;
     flex-direction: column;
     max-width: none;
-    text-align: center; }
+    text-align: center;
+    max-width: 85vw; }
     .main-shows .section-shows .shows .show-title {
-      font-size: 25px; }
+      font-size: 20px; }
     .main-shows .section-shows .shows p {
-      font-size: 18px; }
+      font-size: 14px; }
     .main-shows .section-shows .shows .lista-fechas .fechas {
-      font-size: 18px; } }
+      font-size: 14px; } }
 
 /* }biografia */
 .main-bio {
@@ -407,14 +415,12 @@
         padding: 1rem; }
 
 @media (max-width: 1024px) {
-  .main-bio .card-bio {
-    max-width: 400px; } }
+  .main-bio .bio {
+    min-height: 60 auto; } }
 
 @media (max-width: 480px) {
-  .main-bio .card-bio {
-    max-width: 280px; }
-    .main-bio .card-bio .card-body p {
-      font-size: small; } }
+  .main-bio .bio {
+    min-height: auto; } }
 
 /*  formulario de contacto */
 .main-contacto .contact-main {

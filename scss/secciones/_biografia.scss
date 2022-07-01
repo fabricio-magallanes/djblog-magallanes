@@ -3,7 +3,7 @@
 
 .main-bio {
     background-color: #353030;
-  
+
 
     .bio {
         background-image: url(../../fotos-kyh/shannes222.jpg);
@@ -15,7 +15,8 @@
         min-height: 80vh;
         border-radius: 50px;
         justify-content: flex-end;
-        .flex-bio{
+
+        .flex-bio {
             display: flex;
             flex-direction: column;
             padding: 2rem;
@@ -23,7 +24,7 @@
             max-width: 57vw;
             text-align: center;
             padding-top: 3rem;
-            
+
             .bio-title {
                 font-family: $font-h2;
                 color: $colorSubtitulo;
@@ -32,38 +33,38 @@
                 text-align: center;
                 padding: 1rem;
             }
-    
+
             p {
                 @extend %estiloparrafo;
             }
         }
-        }
+    }
 
-       
+
 
 }
 
 
 @media (max-width: 1024px) {
     .main-bio {
-        .card-bio {
-            max-width: 400px;
-
+        .bio {
+            min-height: 60 auto;
         }
+
     }
 }
+
 
 @media (max-width :480px) {
 
     .main-bio {
-        .card-bio {
-            max-width: 280px;
-
-            .card-body {
-                p {
-                    font-size: small;
-                }
-            }
+        .bio {
+            min-height: auto;
         }
+
     }
+
+
+
 }
+
