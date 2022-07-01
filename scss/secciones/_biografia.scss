@@ -3,32 +3,34 @@
 
 .main-bio {
     background-color: #353030;
+  
 
-    .card-bio {
-        margin: auto;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        max-width: 500px;
+    .bio {
+        background-image: url(../../fotos-kyh/shannes222.jpg);
+        background-color: #484747;
+        background-blend-mode: soft-light;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 80vh;
+        border-radius: 50px;
 
-        .card-body {
-            background-color: #353030;
-
-            .card-title {
-                font-family: $font-h2;
-                color: $colorSubtitulo;
-                font-size: 40px;
-                font-weight: 400;
-                text-align: center;
-                padding: 1rem;
-            }
-
-            p {
-                @extend %estiloparrafo;
-            }
+        .bio-title {
+            font-family: $font-h2;
+            color: $colorSubtitulo;
+            font-size: 40px;
+            font-weight: 400;
+            text-align: center;
+            padding: 1rem;
         }
 
+        p {
+            @extend %estiloparrafo;
+        }
     }
+
 }
+
 
 @media (max-width: 1024px) {
     .main-bio {
