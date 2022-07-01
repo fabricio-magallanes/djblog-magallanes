@@ -6,9 +6,8 @@
   box-sizing: border-box; }
 
 .main-index .frases p, .main-2 .generos ul li,
-.main-2 .set-up ul li, .podcast .sub-grid .descripcion, .main-bio .bio p, .main-contacto .contact-main .form-flex .seccform p {
+.main-2 .set-up ul li, .podcast .sub-grid .descripcion, .main-bio .bio .flex-bio p, .main-contacto .contact-main .form-flex .seccform p {
   color: #b1b1c5;
-  margin: auto;
   text-align: center;
   font-size: 22px;
   font-family: font-texto; }
@@ -214,7 +213,8 @@
       padding-bottom: 50px; }
     .podcast .sub-grid .descripcion {
       max-width: 70vw;
-      padding-bottom: 4rem; }
+      padding-bottom: 4rem;
+      margin: auto; }
   .podcast .sets1 {
     display: grid;
     justify-content: space-around;
@@ -388,14 +388,23 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 80vh;
-    border-radius: 50px; }
-    .main-bio .bio .bio-title {
-      font-family: "Open Sans", sans-serif;
-      color: #ea8989;
-      font-size: 40px;
-      font-weight: 400;
+    border-radius: 50px;
+    justify-content: flex-end; }
+    .main-bio .bio .flex-bio {
+      display: flex;
+      flex-direction: column;
+      padding: 2rem;
+      justify-content: flex-end;
+      max-width: 57vw;
       text-align: center;
-      padding: 1rem; }
+      padding-top: 3rem; }
+      .main-bio .bio .flex-bio .bio-title {
+        font-family: "Open Sans", sans-serif;
+        color: #ea8989;
+        font-size: 40px;
+        font-weight: 400;
+        text-align: center;
+        padding: 1rem; }
 
 @media (max-width: 1024px) {
   .main-bio .card-bio {

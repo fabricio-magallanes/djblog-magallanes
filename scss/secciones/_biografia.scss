@@ -14,20 +14,32 @@
         background-size: cover;
         min-height: 80vh;
         border-radius: 50px;
-
-        .bio-title {
-            font-family: $font-h2;
-            color: $colorSubtitulo;
-            font-size: 40px;
-            font-weight: 400;
+        justify-content: flex-end;
+        .flex-bio{
+            display: flex;
+            flex-direction: column;
+            padding: 2rem;
+            justify-content: flex-end;
+            max-width: 57vw;
             text-align: center;
-            padding: 1rem;
+            padding-top: 3rem;
+            
+            .bio-title {
+                font-family: $font-h2;
+                color: $colorSubtitulo;
+                font-size: 40px;
+                font-weight: 400;
+                text-align: center;
+                padding: 1rem;
+            }
+    
+            p {
+                @extend %estiloparrafo;
+            }
+        }
         }
 
-        p {
-            @extend %estiloparrafo;
-        }
-    }
+       
 
 }
 
