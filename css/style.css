@@ -84,39 +84,33 @@
   background-image: linear-gradient(0deg, black, #353030); }
   .footer .pie .derechos {
     display: flex; }
-  .footer .pie .redes {
+    .footer .pie .derechos .parrafo {
+      color: #b1b1c5; }
+    .footer .pie .derechos i {
+      color: white;
+      line-height: none; }
+  .footer .pie .div-redes .redes {
     display: flex; }
-
-.parrafo {
-  color: #b1b1c5; }
-
-.footer i {
-  color: white; }
-
-.facebook,
-.ig,
-.soundcloud {
-  font-size: 25px;
-  list-style: none;
-  padding: 10px; }
-
-.derechos {
-  padding-left: 5px; }
-
-.facebook :hover {
-  color: blue;
-  transition: .2s;
-  transform: scale(1.3); }
-
-.ig :hover {
-  color: #c531b3;
-  transition: .2s;
-  transform: scale(1.3); }
-
-.soundcloud :hover {
-  color: #f35b09;
-  transition: .2s;
-  transform: scale(1.3); }
+    .footer .pie .div-redes .redes .facebook,
+    .footer .pie .div-redes .redes .ig,
+    .footer .pie .div-redes .redes .soundcloud {
+      font-size: 25px;
+      list-style: none;
+      padding: 10px; }
+    .footer .pie .div-redes .redes a {
+      color: white; }
+    .footer .pie .div-redes .redes .facebook :hover {
+      color: blue;
+      transition: .2s;
+      transform: scale(1.3); }
+    .footer .pie .div-redes .redes .ig :hover {
+      color: #c531b3;
+      transition: .2s;
+      transform: scale(1.3); }
+    .footer .pie .div-redes .redes .soundcloud :hover {
+      color: #f35b09;
+      transition: .2s;
+      transform: scale(1.3); }
 
 @media (max-whidth: 480px) {
   .footer .pie {
