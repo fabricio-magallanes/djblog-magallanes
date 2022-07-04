@@ -519,6 +519,8 @@
       max-width: 70vw; } }
 
 @media (max-width: 480px) {
+  .main-contacto .contact-main .form-flex .seccform p {
+    font-size: 16px; }
   .main-contacto .contact-main .form-flex .seccform .formulario textarea {
     color: black;
     background-color: #8f8f8f;

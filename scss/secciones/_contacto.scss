@@ -121,7 +121,8 @@
                 .fotoform {
                     display: none;
                 }
-                .seccform{
+
+                .seccform {
                     p {
                         max-width: 70vw;
                     }
@@ -138,6 +139,10 @@
         .contact-main {
             .form-flex {
                 .seccform {
+                    p {
+                        font-size: 16px;
+                    }
+
                     .formulario {
                         textarea {
                             color: black;
