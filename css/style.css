@@ -164,7 +164,10 @@
       list-style: none; }
 
 @media (max-width: 1024px) {
-  .main-index .vid {
+  .main-index .vid .vid1,
+  .main-index .vid .vid2 {
+    padding-bottom: 20px; }
+  .main-index .vid .vid3 {
     display: none; }
   .main-index .frases p {
     font-size: 16px;
@@ -179,11 +182,12 @@
 
 @media (max-width: 480px) {
   .main-index .frases {
-    display: none; }
+    font-size: smaller; }
+  .main-index .vid video {
+    max-width: 230px; }
   .main-2 .div {
     display: flex;
-    flex-direction: column;
-    padding-top: 40px; }
+    flex-direction: column; }
     .main-2 .div .generos,
     .main-2 .div .set-up {
       margin-top: 10px; }

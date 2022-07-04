@@ -85,7 +85,16 @@
 
 
         .vid {
-            display: none;
+
+            .vid1,
+            .vid2 {
+                padding-bottom: 20px;
+            }
+
+            .vid3 {
+                display: none;
+            }
+
         }
 
         .frases {
@@ -125,16 +134,22 @@
 
     .main-index {
         .frases {
-            display: none;
+           font-size: smaller;
         }
 
+        .vid {
+            video{
+                max-width: 230px;
+            }
+            
+        }
     }
 
     .main-2 {
         .div {
             display: flex;
             flex-direction: column;
-            padding-top: 40px;
+         
 
 
             .generos,
