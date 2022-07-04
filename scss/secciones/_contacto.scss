@@ -61,8 +61,8 @@
                     max-height: 30px;
                     max-width: 200px;
                     margin: 1rem;
-                    font-size: 1.2rem;
-                    font-weight: bold;
+
+                    font-weight: 600;
                     text-align: center;
                 }
 
@@ -139,6 +139,11 @@
         .contact-main {
             .form-flex {
                 .seccform {
+                    .contrataciones {
+                        font-size: 25px;
+
+                    }
+
                     p {
                         font-size: 16px;
                     }
@@ -149,22 +154,21 @@
                             background-color: rgb(143, 143, 143);
                             margin-top: 1rem;
                             border-radius: 1rem;
-                            font-weight: bolder;
+                            font-weight: 600;
                             max-width: 200px;
                             max-height: 200px;
 
                         }
 
+                        .check {
+                            .enviar {
+                                margin-left: 0px;
+                            }
+                        }
                     }
 
-                    p {
-                        max-width: 70vw;
-                    }
 
-                    .contrataciones {
-                        font-size: 25px;
 
-                    }
 
                 }
             }
