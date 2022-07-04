@@ -473,6 +473,9 @@
         max-width: 402px;
         max-height: 256px;
         text-align: center; }
+        .main-contacto .contact-main .form-flex .seccform .formulario textarea :hover {
+          transition: .2s;
+          transform: scale(1.12); }
       .main-contacto .contact-main .form-flex .seccform .form {
         display: flex;
         flex-direction: column;
@@ -493,14 +496,11 @@
         .main-contacto .contact-main .form-flex .seccform .check .checkbox {
           background-color: #353030; }
       .main-contacto .contact-main .form-flex .seccform .enviar {
-        border-radius: 1rem;
-        margin-left: 9rem;
         background-color: #8f8f8f;
-        max-width: 6rem;
-        align-items: center;
-        padding: 8px; }
-        .main-contacto .contact-main .form-flex .seccform .enviar :hover {
-          background-color: white; }
+        border-style: groove;
+        list-style: none;
+        margin-left: 80px;
+        padding: 7px; }
     .main-contacto .contact-main .form-flex .fotoform {
       max-width: 400px; }
     .main-contacto .contact-main .form-flex .span {
