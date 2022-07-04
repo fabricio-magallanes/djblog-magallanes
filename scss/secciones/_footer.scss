@@ -10,20 +10,28 @@
 
         .derechos {
             display: flex;
+            padding-left: 10px;
 
-            .parrafo {
-                color: $colorTexto;
+            p {
+                color: white;
+                margin-left: 5px;
+                margin-bottom: 8px;
             }
 
             i {
                 color: white;
+                line-height: inherit;
+                margin-bottom: 8px;
 
             }
         }
 
         .div-redes {
+            padding-right: 10px;
+
             .redes {
                 display: flex;
+                margin-bottom: 0px;
 
                 .facebook,
                 .ig,

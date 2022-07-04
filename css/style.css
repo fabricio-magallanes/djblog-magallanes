@@ -83,32 +83,40 @@
   align-items: flex-end;
   background-image: linear-gradient(0deg, black, #353030); }
   .footer .pie .derechos {
-    display: flex; }
-    .footer .pie .derechos .parrafo {
-      color: #b1b1c5; }
+    display: flex;
+    padding-left: 10px; }
+    .footer .pie .derechos p {
+      color: white;
+      margin-left: 5px;
+      margin-bottom: 8px; }
     .footer .pie .derechos i {
-      color: white; }
-  .footer .pie .div-redes .redes {
-    display: flex; }
-    .footer .pie .div-redes .redes .facebook,
-    .footer .pie .div-redes .redes .ig,
-    .footer .pie .div-redes .redes .soundcloud {
-      font-size: 25px;
-      list-style: none;
-      padding: 10px; }
-      .footer .pie .div-redes .redes .facebook :hover,
-      .footer .pie .div-redes .redes .ig :hover,
+      color: white;
+      line-height: inherit;
+      margin-bottom: 8px; }
+  .footer .pie .div-redes {
+    padding-right: 10px; }
+    .footer .pie .div-redes .redes {
+      display: flex;
+      margin-bottom: 0px; }
+      .footer .pie .div-redes .redes .facebook,
+      .footer .pie .div-redes .redes .ig,
+      .footer .pie .div-redes .redes .soundcloud {
+        font-size: 25px;
+        list-style: none;
+        padding: 10px; }
+        .footer .pie .div-redes .redes .facebook :hover,
+        .footer .pie .div-redes .redes .ig :hover,
+        .footer .pie .div-redes .redes .soundcloud :hover {
+          transform: scale(1.3);
+          transition: .2s; }
+      .footer .pie .div-redes .redes .facebook :hover {
+        color: blue; }
+      .footer .pie .div-redes .redes .ig :hover {
+        color: #c531b3; }
       .footer .pie .div-redes .redes .soundcloud :hover {
-        transform: scale(1.3);
-        transition: .2s; }
-    .footer .pie .div-redes .redes .facebook :hover {
-      color: blue; }
-    .footer .pie .div-redes .redes .ig :hover {
-      color: #c531b3; }
-    .footer .pie .div-redes .redes .soundcloud :hover {
-      color: #f35b09; }
-    .footer .pie .div-redes .redes a {
-      color: white; }
+        color: #f35b09; }
+      .footer .pie .div-redes .redes a {
+        color: white; }
 
 @media (max-whidth: 480px) {
   .footer .pie {
