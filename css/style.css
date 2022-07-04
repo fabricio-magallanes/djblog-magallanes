@@ -224,7 +224,7 @@
       padding-bottom: 50px; }
     .podcast .sub-grid .descripcion {
       max-width: 70vw;
-      padding-bottom: 4rem;
+      padding-bottom: 50px;
       margin: auto; }
   .podcast .sets1 {
     display: grid;
@@ -311,6 +311,12 @@
     background-color: #353030; }
     .podcast .sub-grid {
       grid-area: sub-grid; }
+      .podcast .sub-grid .sub-podcast {
+        font-size: 25px;
+        padding-bottom: 10px; }
+      .podcast .sub-grid .descripcion {
+        font-size: smaller;
+        padding-bottom: 25px; }
     .podcast .sets1 {
       display: grid;
       justify-content: space-around;
@@ -331,7 +337,9 @@
       .podcast .sets1 .p7 {
         grid-area: p7; }
       .podcast .sets1 .p8 {
-        grid-area: p8; } }
+        grid-area: p8; }
+      .podcast .sets1 h5 {
+        font-size: 16px; } }
 
 /* proximos shows */
 .main-shows {

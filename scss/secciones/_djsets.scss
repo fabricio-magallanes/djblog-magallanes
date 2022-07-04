@@ -25,7 +25,7 @@
         .descripcion {
             @extend %estiloparrafo;
             max-width: 70vw;
-            padding-bottom: 4rem;
+            padding-bottom: 50px;
             margin: auto;
 
         }
@@ -199,6 +199,14 @@
 
         .sub-grid {
             grid-area: sub-grid;
+           .sub-podcast{
+            font-size: 25px;
+            padding-bottom: 10px;
+           }
+            .descripcion{
+                font-size: smaller;
+                padding-bottom: 25px;
+            }
         }
 
         .sets1 {
@@ -246,6 +254,9 @@
 
             .p8 {
                 grid-area: p8;
+            }
+            h5{
+                font-size: 16px;
             }
 
         }
