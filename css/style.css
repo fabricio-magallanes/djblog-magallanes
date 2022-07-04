@@ -99,18 +99,21 @@
       padding: 10px; }
     .footer .pie .div-redes .redes a {
       color: white; }
-    .footer .pie .div-redes .redes .facebook :hover {
-      color: blue;
-      transition: .2s;
-      transform: scale(1.3); }
-    .footer .pie .div-redes .redes .ig :hover {
-      color: #c531b3;
-      transition: .2s;
-      transform: scale(1.3); }
-    .footer .pie .div-redes .redes .soundcloud :hover {
-      color: #f35b09;
-      transition: .2s;
-      transform: scale(1.3); }
+
+.facebook :hover {
+  color: blue;
+  transition: .2s;
+  transform: scale(1.3); }
+
+.ig :hover {
+  color: #c531b3;
+  transition: .2s;
+  transform: scale(1.3); }
+
+.soundcloud :hover {
+  color: #f35b09;
+  transition: .2s;
+  transform: scale(1.3); }
 
 @media (max-whidth: 480px) {
   .footer .pie {
