@@ -64,22 +64,23 @@
 
                     font-weight: 600;
                     text-align: center;
-                }
 
-                .envio {
-                    display: flex;
-                    flex-direction: row;
-                    flex-wrap: wrap;
-                    margin-top: 1rem;
-                    justify-content: space-evenly;
-                    align-items: center;
-
-                    .check {
-                        .checkbox {
-                            background-color: #353030;
-                        }
+                    & :hover {
+                        transition: .2s;
+                        transform: scale(1.12);
                     }
                 }
+
+
+
+                .check {
+                    margin-top: 10px;
+
+                    .checkbox {
+                        background-color: #353030;
+                    }
+                }
+
 
                 .enviar {
                     border-radius: 1rem;
