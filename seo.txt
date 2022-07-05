@@ -30,3 +30,7 @@ contacto- shannes/ contacto
 
 9-aplique extend en los botones del nav
 
+10-aplique animaciones de animate.css en logo, nav, imagenes y texto de todos los html
+
+
+
