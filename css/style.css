@@ -473,9 +473,11 @@
         max-width: 402px;
         max-height: 256px;
         text-align: center; }
-        .main-contacto .contact-main .form-flex .seccform .formulario textarea :hover {
+        .main-contacto .contact-main .form-flex .seccform .formulario textarea:hover {
+          background-color: #ecf6fe;
           transition: .2s;
-          transform: scale(1.12); }
+          transform: scale(1.12);
+          color: black; }
       .main-contacto .contact-main .form-flex .seccform .form {
         display: flex;
         flex-direction: column;
@@ -488,9 +490,11 @@
         margin: 1rem;
         font-weight: 600;
         text-align: center; }
-        .main-contacto .contact-main .form-flex .seccform .relleno :hover {
+        .main-contacto .contact-main .form-flex .seccform .relleno:hover {
+          background-color: #ecf6fe;
           transition: .2s;
-          transform: scale(1.12); }
+          transform: scale(1.12);
+          color: black; }
       .main-contacto .contact-main .form-flex .seccform .check {
         margin-top: 10px; }
         .main-contacto .contact-main .form-flex .seccform .check .checkbox {
@@ -501,6 +505,11 @@
         list-style: none;
         margin-left: 80px;
         padding: 7px; }
+        .main-contacto .contact-main .form-flex .seccform .enviar:hover {
+          background-color: #ecf6fe;
+          transition: .2s;
+          transform: scale(1.12);
+          color: black; }
     .main-contacto .contact-main .form-flex .fotoform {
       max-width: 400px; }
     .main-contacto .contact-main .form-flex .span {
