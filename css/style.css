@@ -6,7 +6,7 @@
   box-sizing: border-box; }
 
 .main-index .frases p, .main-2 .generos ul li,
-.main-2 .set-up ul li, .podcast .sub-grid .descripcion, .main-bio .bio .flex-bio .bio-text, .main-contacto .contact-main .form-flex .seccform p {
+.main-2 .set-up ul li, .podcast .sub-grid .descripcion, .main-bio .bio .flex-bio .bio-text, .main-contacto .contact-main .seccform p {
   color: #b1b1c5;
   text-align: center;
   font-size: 22px;
@@ -439,32 +439,32 @@
     font-size: 16px; } }
 
 /*  formulario de contacto */
-.main-contacto .contact-main {
-  background-color: #353030;
-  grid-area: main;
-  padding-top: 3rem;
-  padding-bottom: 3rem; }
-  .main-contacto .contact-main .form-flex {
-    display: flex;
-    align-content: space-between;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: row-reverse; }
-    .main-contacto .contact-main .form-flex .seccform {
+.main-contacto {
+  background-color: #353030; }
+  .main-contacto .contact-main {
+    background-image: url("../fotos-kyh/mat09485.jpg");
+    background-color: #484747;
+    background-blend-mode: soft-light;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px; }
+    .main-contacto .contact-main .seccform {
       display: flex;
       flex-direction: column;
       align-items: center; }
-      .main-contacto .contact-main .form-flex .seccform .contrataciones {
+      .main-contacto .contact-main .seccform .contrataciones {
         font-weight: 400;
         font-family: "Open Sans", sans-serif;
         color: #ea8989;
         font-size: 40px;
         color: #ea8989;
         text-transform: uppercase;
-        margin-bottom: 2rem; }
-      .main-contacto .contact-main .form-flex .seccform p {
+        margin-bottom: 2rem;
+        padding-top: 10px; }
+      .main-contacto .contact-main .seccform p {
         max-width: 50vw; }
-      .main-contacto .contact-main .form-flex .seccform .formulario textarea {
+      .main-contacto .contact-main .seccform .formulario textarea {
         color: black;
         background-color: #8f8f8f;
         margin-top: 1rem;
@@ -473,16 +473,17 @@
         max-width: 402px;
         max-height: 256px;
         text-align: center; }
-        .main-contacto .contact-main .form-flex .seccform .formulario textarea:hover {
+        .main-contacto .contact-main .seccform .formulario textarea:hover {
           background-color: #ecf6fe;
           transition: .2s;
           transform: scale(1.12);
           color: black; }
-      .main-contacto .contact-main .form-flex .seccform .form {
+      .main-contacto .contact-main .seccform .form {
         display: flex;
         flex-direction: column;
-        align-items: center; }
-      .main-contacto .contact-main .form-flex .seccform .relleno {
+        align-items: center;
+        padding-bottom: 10px; }
+      .main-contacto .contact-main .seccform .relleno {
         background-color: #8f8f8f;
         border-radius: 8px;
         max-height: 30px;
@@ -490,46 +491,40 @@
         margin: 1rem;
         font-weight: 600;
         text-align: center; }
-        .main-contacto .contact-main .form-flex .seccform .relleno:hover {
+        .main-contacto .contact-main .seccform .relleno:hover {
           background-color: #ecf6fe;
           transition: .2s;
           transform: scale(1.12);
           color: black; }
-      .main-contacto .contact-main .form-flex .seccform .check {
+      .main-contacto .contact-main .seccform .check {
         margin-top: 10px; }
-        .main-contacto .contact-main .form-flex .seccform .check .checkbox {
+        .main-contacto .contact-main .seccform .check .checkbox {
           background-color: #353030; }
-      .main-contacto .contact-main .form-flex .seccform .enviar {
+      .main-contacto .contact-main .seccform .enviar {
         background-color: #8f8f8f;
         border-style: groove;
         list-style: none;
         margin-left: 80px;
         padding: 7px; }
-        .main-contacto .contact-main .form-flex .seccform .enviar:hover {
+        .main-contacto .contact-main .seccform .enviar:hover {
           background-color: #ecf6fe;
           transition: .2s;
           transform: scale(1.12);
           color: black; }
-    .main-contacto .contact-main .form-flex .fotoform {
-      max-width: 400px; }
-    .main-contacto .contact-main .form-flex .span {
+    .main-contacto .contact-main .span {
       color: #b1b1c5;
       text-transform: capitalize; }
 
 @media (max-width: 1024px) {
-  .main-contacto .contact-main .form-flex {
-    justify-content: center; }
-    .main-contacto .contact-main .form-flex .fotoform {
-      display: none; }
-    .main-contacto .contact-main .form-flex .seccform p {
-      max-width: 70vw; } }
+  .main-contacto .contact-main .seccform p {
+    max-width: 70vw; } }
 
 @media (max-width: 480px) {
-  .main-contacto .contact-main .form-flex .seccform .contrataciones {
+  .main-contacto .contact-main .seccform .contrataciones {
     font-size: 25px; }
-  .main-contacto .contact-main .form-flex .seccform p {
+  .main-contacto .contact-main .seccform p {
     font-size: 16px; }
-  .main-contacto .contact-main .form-flex .seccform .formulario textarea {
+  .main-contacto .contact-main .seccform .formulario textarea {
     color: black;
     background-color: #8f8f8f;
     margin-top: 1rem;
@@ -537,7 +532,7 @@
     font-weight: 600;
     max-width: 200px;
     max-height: 200px; }
-  .main-contacto .contact-main .form-flex .seccform .formulario .check .enviar {
+  .main-contacto .contact-main .seccform .formulario .check .enviar {
     margin-left: 0px; } }
 
 /* Animaciones */

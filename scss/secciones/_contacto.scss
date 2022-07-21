@@ -1,76 +1,49 @@
 /*  formulario de contacto */
 
 .main-contacto {
-    .contact-main {
-        background-color: #353030;
-        grid-area: main;
-        padding-top: 3rem;
-        padding-bottom: 3rem;
-
-        .form-flex {
-            display: flex;
-            align-content: space-between;
-            justify-content: space-evenly;
-            align-items: center;
-            flex-direction: row-reverse;
-
-            .seccform {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-
-                .contrataciones {
-                    font-weight: 400;
-                    font-family: $font-h2;
-                    color: $colorSubtitulo;
-                    font-size: 40px;
-                    color: $colorSubtitulo;
-                    text-transform: uppercase;
-                    margin-bottom: 2rem;
-                }
-
-                p {
-                    max-width: 50vw;
-                    @extend %estiloparrafo;
-                }
-
-                .formulario {
-                    textarea {
-                        color: black;
-                        background-color: #8f8f8f;
-                        margin-top: 1rem;
-                        border-radius: 1rem;
-                        font-weight: bold;
-                        max-width: 402px;
-                        max-height: 256px;
-                        text-align: center;
-                        &:hover {
-                            background-color: rgb(236, 246, 254);
-                            transition: .2s;
-                            transform: scale(1.12);
-                            color: black;
+    background-color: #353030;
     
-                        }
 
-                    }
+    .contact-main {
+        background-image: url("../fotos-kyh/mat09485.jpg");
+        background-color: #484747;
+        background-blend-mode: soft-light;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50px;
+ 
 
-                }
+        .seccform {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
 
-                .form {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
+            .contrataciones {
+                font-weight: 400;
+                font-family: $font-h2;
+                color: $colorSubtitulo;
+                font-size: 40px;
+                color: $colorSubtitulo;
+                text-transform: uppercase;
+                margin-bottom: 2rem;
+                padding-top: 10px;
+            }
 
-                }
+            p {
+                max-width: 50vw;
+                @extend %estiloparrafo;
+            }
 
-                .relleno {
-                    background-color: rgb(143, 143, 143);
-                    border-radius: 8px;
-                    max-height: 30px;
-                    max-width: 200px;
-                    margin: 1rem;
-
-                    font-weight: 600;
+            .formulario {
+                textarea {
+                    color: black;
+                    background-color: #8f8f8f;
+                    margin-top: 1rem;
+                    border-radius: 1rem;
+                    font-weight: bold;
+                    max-width: 402px;
+                    max-height: 256px;
                     text-align: center;
 
                     &:hover {
@@ -83,58 +56,78 @@
 
                 }
 
+            }
 
+            .form {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-bottom: 10px;
 
-                .check {
-                    margin-top: 10px;
+            }
 
-                    .checkbox {
-                        background-color: #353030;
-                    }
+            .relleno {
+                background-color: rgb(143, 143, 143);
+                border-radius: 8px;
+                max-height: 30px;
+                max-width: 200px;
+                margin: 1rem;
+
+                font-weight: 600;
+                text-align: center;
+
+                &:hover {
+                    background-color: rgb(236, 246, 254);
+                    transition: .2s;
+                    transform: scale(1.12);
+                    color: black;
+
                 }
 
+            }
 
-                .enviar {
-                    @include btn-nav(rgb(143, 143, 143), groove, none);
-                    margin-left: 80px;
-                    padding: 7px;
 
-                    &:hover {
-                        background-color: rgb(236, 246, 254);
-                        transition: .2s;
-                        transform: scale(1.12);
-                        color: black;
 
-                    }
+            .check {
+                margin-top: 10px;
 
+                .checkbox {
+                    background-color: #353030;
                 }
             }
 
-            .fotoform {
-                max-width: 400px;
-            }
 
+            .enviar {
+                @include btn-nav(rgb(143, 143, 143), groove, none);
+                margin-left: 80px;
+                padding: 7px;
 
-            .span {
-                color: $colorTexto;
-                text-transform: capitalize;
+                &:hover {
+                    background-color: rgb(236, 246, 254);
+                    transition: .2s;
+                    transform: scale(1.12);
+                    color: black;
+
+                }
+
             }
         }
 
+        .span {
+            color: $colorTexto;
+            text-transform: capitalize;
+        }
     }
 
 }
+
+
 
 @media (max-width: 1024px) {
 
     .main-contacto {
         .contact-main {
-            .form-flex {
-                justify-content: center;
-
-                .fotoform {
-                    display: none;
-                }
+           
 
                 .seccform {
                     p {
@@ -145,13 +138,13 @@
             }
         }
     }
-}
+
 
 
 @media (max-width: 480px) {
     .main-contacto {
         .contact-main {
-            .form-flex {
+           
                 .seccform {
                     .contrataciones {
                         font-size: 25px;
@@ -188,4 +181,3 @@
             }
         }
     }
-}
