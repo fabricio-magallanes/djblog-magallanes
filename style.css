@@ -132,8 +132,8 @@
     justify-content: space-around;
     padding-top: 3rem;
     flex-wrap: wrap; }
-    .main-index .vid video {
-      max-width: 350px; }
+  .main-index .vid video {
+    max-width: 350px; }
   .main-index .frases {
     max-width: 70vw;
     margin: auto;
@@ -210,7 +210,7 @@
 /* dj sets */
 .podcast {
   display: grid;
-  grid-template-areas: "sub-grid sub-grid sub-grid sub-grid" "sets1 sets1 sets1 sets1";
+  grid-template-areas: "sub-grid sub-grid sub-grid sub-grid" "sets1 sets1 sets1 sets1";
   background-color: #353030; }
   .podcast .sub-grid {
     grid-area: sub-grid; }
@@ -230,7 +230,7 @@
     display: grid;
     justify-content: space-around;
     grid-area: sets1;
-    grid-template-areas: "p1 p2 p3 p4" "p5 p6 p7 p8"; }
+    grid-template-areas: "p1 p2 p3 p4" "p5 p6 p7 p8"; }
     .podcast .sets1 .p1 {
       grid-area: p1;
       margin-bottom: 2rem; }
@@ -275,7 +275,7 @@
 @media (max-width: 1024px) {
   .podcast {
     display: grid;
-    grid-template-areas: "sub-grid sub-grid sub-grid sub-grid" "sets1 sets1 sets1 sets1";
+    grid-template-areas: "sub-grid sub-grid sub-grid sub-grid" "sets1 sets1 sets1 sets1";
     background-color: #353030; }
     .podcast .sub-grid {
       grid-area: sub-grid; }
@@ -283,7 +283,7 @@
       display: grid;
       justify-content: space-around;
       grid-area: sets1;
-      grid-template-areas: "p1 p2 " "p3 p4" "p5 p6" "p7 p8"; }
+      grid-template-areas: "p1 p2 " "p3 p4" "p5 p6" "p7 p8"; }
       .podcast .sets1 .p1 {
         grid-area: p1; }
       .podcast .sets1 .p2 {
@@ -307,7 +307,7 @@
 @media (max-width: 480px) {
   .podcast {
     display: grid;
-    grid-template-areas: "sub-grid sub-grid sub-grid sub-grid" "sets1 sets1 sets1 sets1";
+    grid-template-areas: "sub-grid sub-grid sub-grid sub-grid" "sets1 sets1 sets1 sets1";
     background-color: #353030; }
     .podcast .sub-grid {
       grid-area: sub-grid; }
@@ -321,7 +321,7 @@
       display: grid;
       justify-content: space-around;
       grid-area: sets1;
-      grid-template-areas: "p1" "p2" "p3" "p4" "p5" "p6" "p7" "p8"; }
+      grid-template-areas: "p1" "p2" "p3" "p4" "p5" "p6" "p7" "p8"; }
       .podcast .sets1 .p1 {
         grid-area: p1; }
       .podcast .sets1 .p2 {
@@ -442,7 +442,7 @@
 .main-contacto {
   background-color: #353030; }
   .main-contacto .contact-main {
-    background-image: url("../fotos-kyh/mat09485.JPG");
+    background-image: url("../fotos-kyh/MAT09485.JPG");
     background-color: #484747;
     background-blend-mode: soft-light;
     background-position: center;
