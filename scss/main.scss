@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+@import './variables/letras.scss';
+@import './variables/tipografia';
+@import './variables/extend.scss';
+@import './variables/mixins.scss';
+
+
+
+@import './secciones/header';
+@import './secciones/footer';
+@import './secciones/index';
+@import './secciones/djsets';
+@import './secciones/shows';
+@import './secciones/biografia';
+@import './secciones/contacto.scss';
+
+
+
+/* Animaciones */
+
+/*QUERYS MOBILE  */
+
+
+/* QUERY TABLET */
+

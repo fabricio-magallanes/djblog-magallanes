@@ -1,0 +1,86 @@
+/* }biografia */
+
+
+.main-bio {
+    background-color: #353030;
+
+
+    .bio {
+        background-image: url("../fotos-kyh/shannes222.jpg");
+        background-color: #484747;
+        background-blend-mode: soft-light;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;
+        border-radius: 50px;
+
+
+        .flex-bio {
+            display: flex;
+            flex-direction: column;
+            max-width: 57vw;
+            margin-left: 33vw;
+
+
+            .bio-title {
+                font-family: $font-h2;
+                color: $colorSubtitulo;
+                font-size: 40px;
+                font-weight: 400;
+                text-align: center;
+                padding: 1rem;
+            }
+
+            .bio-text {
+                @extend %estiloparrafo;
+            }
+        }
+    }
+
+
+
+}
+
+
+@media (max-width: 1024px) {
+    .main-bio {
+        .bio {
+            max-width: 90vw;
+
+            .flex-bio {
+                margin: auto;
+                max-width: auto;
+                max-width: 90vw;
+
+                .bio-text {
+                    font-size: 18px;
+                }
+            }
+
+        }
+
+    }
+}
+
+
+@media (max-width :480px) {
+    .main-bio {
+        .bio {
+
+
+            .flex-bio {
+
+                .bio-title {
+                    font-size: 22px;
+                }
+
+                .bio-text {
+                    font-size: 16px;
+                }
+            }
+
+        }
+
+    }
+}

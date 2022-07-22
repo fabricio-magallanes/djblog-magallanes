@@ -1,0 +1,94 @@
+/* footer */
+
+.footer {
+    .pie {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        background-image: linear-gradient(0deg, black, #353030);
+
+
+        .derechos {
+            display: flex;
+            padding-left: 10px;
+
+            p {
+                color: white;
+                margin-left: 5px;
+                margin-bottom: 8px;
+            }
+
+            i {
+                color: white;
+                line-height: inherit;
+                margin-bottom: 8px;
+
+            }
+        }
+
+        //redes sociale//
+        .div-redes {
+            padding-right: 10px;
+
+            .redes {
+                display: flex;
+                margin-bottom: 0px;
+
+                .facebook,
+                .ig,
+                .soundcloud {
+                    font-size: 25px;
+                    list-style: none;
+                    padding: 10px;
+
+                    & :hover {
+                        transform: scale(1.3);
+                        transition: .2s;
+                    }
+                }
+
+                .facebook {
+                    & :hover {
+                        color: blue;
+
+                    }
+                }
+
+                .ig {
+                    & :hover {
+                        color: rgb(197, 49, 179);
+                    }
+                }
+
+                .soundcloud {
+                    & :hover {
+                        color: rgb(243, 91, 9);
+
+                    }
+                }
+
+                a {
+                    color: white;
+                }
+
+            }
+        }
+
+    }
+
+
+}
+
+
+
+
+
+@media(max-whidth: 480px) {
+    .footer {
+        .pie {
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+
+}
